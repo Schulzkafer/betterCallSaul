@@ -20,7 +20,7 @@ yarn install
 yarn installServer
 yarn dev     
 ```
-e seguem as próximas recomendações do Expo.
+e seguem as próximas instruções do Expo.
 
 
 _Atenção!_

@@ -2,7 +2,7 @@
 
 ### Introdução
 
-Esse aplicativo é baseado na série "Better call Saul"
+Esse aplicativo é baseado na série "Better call Saul".
 
 Usam-se React Native (Expo), Node.js e MySQL e Javascript simples.
 
@@ -20,12 +20,12 @@ yarn install
 yarn installServer
 yarn dev     
 ```
-e seguem as próximas recomendações do Expo
+e seguem as próximas recomendações do Expo.
 
 
 _Atenção!_
 
-Antes de começar o projeto, é necessário inserir seus dados de banco de dados (DB) no arquivo `default.json`. 
+Antes de começar o projeto, é necessário inserir seus dados de banco de dados (DB) no arquivo `serverSide/config/default.json`. 
 
 O DB do projeto usa a seguinte tabela `clients`:
   ```

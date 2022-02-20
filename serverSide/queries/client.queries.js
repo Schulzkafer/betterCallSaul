@@ -8,7 +8,7 @@ const checkIfUserExists = (name, pool) => {
 
 const registerUser = (name, pool) => {
    return new Promise((resolve, reject) => {
-      pool.query(`INSERT INTO clients(name, isAssigned) VALUES(?, 0)`, [name], (error, elements) => {
+      pool.query(`INSERT INTO clients(name) VALUES(?)`, [name], (error, elements) => {
          return (error) ? reject(error) : resolve(elements)
       });
    });
